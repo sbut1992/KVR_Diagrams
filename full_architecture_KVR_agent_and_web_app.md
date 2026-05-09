@@ -1,8 +1,6 @@
 # Kelly / KVR Platform — System Architecture
 
-**Audience:** Technical advisor onboarding to the system.
 **Scope:** End-to-end architecture across the three core pieces — agent backend, web platform, shared database.
-**Source:** Synthesized from the agent backend architecture summary and the KVR Platform architecture summary. This document is the cross-system reference; the two source documents remain authoritative for component-internal detail.
 
 ---
 
