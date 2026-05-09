@@ -45,7 +45,7 @@
        │                                                                  │
        │                     AZURE SQL SERVER 2022                        │
        │                                                                  │
-       │                    97 tables · 11 schemas                        │
+       │                    60 tables · 11 schemas                        │
        │                                                                  │
        │     core · community · prospects · communication · tour          │
        │     compliance · analytics · residents · leasing · crm           │
