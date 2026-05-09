@@ -80,7 +80,7 @@ The KVR backend has two distinct response patterns. Most routes are direct DB re
 
 ### Database
 
-One Azure SQL Server 2022 instance (`kvr-kvr-dev-eus-sql-02`), 97 tables across 11 schemas, shared between the two services. Both connect directly. The agent uses raw SQL written in Postgres dialect with a translation layer that targets either Postgres (dev) or T-SQL (production Azure SQL) — the same code runs against either backend. The KVR backend uses SQLAlchemy 2.0 with the pyodbc driver over ODBC Driver 18.
+One Azure SQL Server 2022 instance (`kvr-kvr-dev-eus-sql-02`), 60 tables across 11 schemas, shared between the two services. Both connect directly. The agent uses raw SQL written in Postgres dialect with a translation layer that targets either Postgres (dev) or T-SQL (production Azure SQL) — the same code runs against either backend. The KVR backend uses SQLAlchemy 2.0 with the pyodbc driver over ODBC Driver 18.
 
 The schema split corresponds to functional domains: `core` for tenants, users, and roles; `community` for properties, units, knowledge, and media; `prospects` for lead records; `communication` for conversations, tickets, tasks, and follow-ups; `tour` for calendar events and booking state; `compliance` for fair housing rules; `analytics` for LLM cost tracking; `residents` for resident details and charges; `leasing` for fees; `crm` for the read-only India-CRM mirror.
 
